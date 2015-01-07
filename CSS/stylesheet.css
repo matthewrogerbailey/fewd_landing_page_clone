@@ -108,3 +108,31 @@ not of a local server or http:// page - find out how to use this soooon
     cursor: pointer;
     color: #333333;
 }
+
+.introduction {
+	background-image: url("/Users/matthewbailey712/Thinkful/startup-landing-page/images/first-background copy.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45rem;
+
+}
+
+.button li:hover{
+	cursor: pointer;
+	color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
