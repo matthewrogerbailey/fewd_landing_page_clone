@@ -74,7 +74,6 @@ not of a local server or http:// page - find out how to use this soooon
 /* Start of Custom Styles */
 .content {
     font-size: 100%;
-    font-style: thin;
     padding: 0 15px;
     margin: 0 auto;
     width: 970px;
@@ -181,10 +180,19 @@ margin: 1.625rem 0 3.125rem;
 font-weight: 300;
 }
 
+.devices {
+	max-width: 970px;
+	margin: 0 auto;
+	padding: 0 15px
+}
+
 .cases .devices > li {
 width: 33.3333333%;
 float: left;
+padding-top: 2rem;
+text-align: center;
 }
+
 
 .cases .devices h3 {
 font-weight: 400;
@@ -192,4 +200,7 @@ font-size: 1.563rem;
 margin: 2.5rem 0px 1.875rem;
 }
 
-
+.cases .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
+}
