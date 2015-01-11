@@ -65,6 +65,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+div {
+    border: 1px solid Chocolate;
+}
 
 /* font style in <head> cannot be used yet as loading page of a file:// server 
 not of a local server or http:// page - find out how to use this soooon
@@ -89,6 +92,10 @@ not of a local server or http:// page - find out how to use this soooon
 
 .top-navigation .logo {
     height: 70px;
+}
+
+.logo {
+	float: left;
 }
 
 .top-navigation .links {
